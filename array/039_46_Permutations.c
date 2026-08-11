@@ -28,8 +28,7 @@ void com(int *nums, int n, int pos, int *m,
     }
 }
 
-int** permute(int* nums, int numsSize,
-              int* returnSize, int** returnColumnSizes)
+int** permute(int* nums, int numsSize,int* returnSize, int** returnColumnSizes)
 {
     int max = 1;
 
